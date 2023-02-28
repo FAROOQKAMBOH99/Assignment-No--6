@@ -1,0 +1,821 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment No 6</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <header>
+        <!--------------------------------------- Topbar----------------------------------------------------- -->
+        <div class="container bg-white p-3">
+            <div class="row">
+                <div class="col-3 text-center">
+                    <div>
+                        <img src="./images/logo.png" alt="logo" class="img-fluid logo">
+                        <img src="./images/logo text.png" alt="foodwaGon" class=" foodwaGon img-fluid w-75">
+                    </div>
+                </div>
+
+                <div class="col-6 mt-2 text-center center-top">
+                    <p><strong>Deliver to: </strong><i class="bi bi-geo-alt-fill icon-location"></i> Current Location
+                        <strong>Mirpur 1 Bus Stand, Dhaka</strong>
+                    </p>
+                </div>
+
+                <div class="col-3 mt-1 text-center">
+                    <i class="bi bi-search icon-location mt-2 search"></i> <strong class="search">search Food </strong>
+                    <button class="btn  button-login ms-2"><i class="bi bi-person-fill icon-location"></i>
+                        Login</button>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </header>
+
+
+    <main>
+
+        <div class="container-fluid p-lg-0 p-md-3 p-sm-2 bg-warning">
+            <div class="container  p-1">
+                <div class="row mt-5 ">
+                    <div class="col-lg-7 mt-4 col-md-12 col-sm-12 p-5 order-sm-2">
+                        <h1 class="text-white front-text mb-3">Are you starving?</h1>
+                        <h2>Within a few clicks, find meals that are accessible near you</h2>
+                        <div class="col-12">
+                            <div class="card bg-white p-4">
+                                <div class="row">
+
+                                    <button class="col-lg-4 col-sm-12 btn btn-delivery fs-5"><i
+                                            class="bi bi-bicycle fs-3"></i>
+                                        Delivery</button>
+                                    <button class="col-lg-3 col-sm-12  btn btn-light fs-5">
+                                        <i class="bi bi-bag-dash-fill"></i> Pickup
+                                    </button>
+                                </div>
+                                <hr>
+                                <br>
+                                <div class="row">
+                                    <div class="">
+                                        <div class="input-group">
+                                            <span class="input-group-text input-field mb-2" id="basic-addon1"><i
+                                                    class="bi bi-geo-alt-fill icon-email fs-4"></i></span>
+                                            <input type="text"
+                                                class="form-control border border-start-0 input-field mb-2"
+                                                placeholder="Enter Your Address" aria-label="Username"
+                                                aria-describedby="basic-addon1">
+                                            <div class="">
+                                                <button class="btn btn-lg text-white  ms-2 find-food"><i
+                                                        class="bi bi-search  fs-6  mt-2"></i> Find Food</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 mt-5 images-bol order-sm-3">
+                        <img src="./images/Image Base.png" alt="image" class="img-fluid  mt-5" style="margin-top: 15vh !important;">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- -----------------------------------------cards--------------------------------------------------- -->
+
+        <section>
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12 mx-auto">
+                        <div class="card mx-auto border border-0 mx-2" style="width: 16rem;">
+                            <img src="./images/card1.png" class="card-img-top img-fluid" alt="card">
+                            <div class="card-body mx-0">
+                                <h6 class="card-title fw-bold">Greys Vage</h6>
+                                <a href="#" class="btn btn-delivery">6 Days Remaining</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card2--------------------------------- -->
+
+                    <div class="col-lg-3 col-md-6 col-sm-12 mx-auto">
+                        <div class="card border mx-auto border-0" style="width: 16rem;">
+                            <img src="./images/card 2.png" class="card-img-top img-fluid" alt="card">
+                            <div class="card-body mx-0">
+                                <h6 class="card-title fw-bold">Greys Vage</h6>
+                                <a href="#" class="btn btn-delivery">7 Days Remaining</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card3-------------------------------------------------------------- -->
+
+                    <div class="col-lg-3 col-md-6 col-sm-12 mx-auto">
+                        <div class="card border mx-auto border-0" style="width: 16rem;">
+                            <img src="./images/card3.png" class="card-img-top img-fluid" alt="card">
+                            <div class="card-body mx-0">
+                                <h6 class="card-title fw-bold">Greys Vage</h6>
+                                <a href="#" class="btn btn-delivery">8 Days Remaining</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 4------------------------------------------------------------ -->
+
+                    <div class="col-lg-3 col-md-6 col-sm-12 mx-auto">
+                        <div class="card border mx-auto border-0" style="width: 16rem;">
+                            <img src="./images/card4.png" class="card-img-top img-fluid" alt="card">
+                            <div class="card-body mx-0">
+                                <h6 class="card-title fw-bold">Greys Vage</h6>
+                                <a href="#" class="btn btn-delivery">9 Days Remaining</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <!-- 
+    ----------------------------------------3rd section
+ -->
+
+        <section>
+            <div class="container-fluid section-3rd p-5 mt-5">
+                <div class="container">
+
+                    <div class="row g-5">
+                        <h1 class="fw-bold how text-center mt-5">How does IT work</h1>
+                    <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+                        <div class="card mx-auto bg-transparent border border-0 text-center" style="width: 18rem;">
+                            <div class="card-body">
+                                <img src="./images/section3-1st.png" class="card-img-end img-fluid mt-4" alt="image">
+                                <h6 class="fw-bold">Select Location</h6>
+                                <p class="card-text">Some quick example text to build on the card title and.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+                        <div class="card mx-auto  bg-transparent border border-0 text-center" style="width: 18rem;">
+                            <div class="card-body">
+                                <img src="./images/section3rd-2.png" class="card-img-end img-fluid mt-4" alt="image">
+                                <h6 class="fw-bold">Chose Order</h6>
+                                <p class="card-text">Some quick example text to build on the card title and.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+                        <div class="card mx-auto bg-transparent border border-0 text-center" style="width: 18rem;">
+                            <div class="card-body">
+                                <img src="./images/section3-3rd.png" class="card-img-end img-fluid mt-4" alt="image">
+                                <h6 class="fw-bold">Pay Advanced</h6>
+                                <p class="card-text">Some quick example text to build on the card title and.</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+                        <div class="card mx-auto bg-transparent border border-0 text-center" style="width: 18rem;">
+                            <div class="card-body">
+                                <img src="./images/section3- 4th.png" class="card-img-end img-fluid mt-4" alt="image">
+                                <h6 class="fw-bold">Enjoy meals</h6>
+                                <p class="card-text">Some quick example text to build on the card title and.</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                </div>
+        </section>
+
+
+        <!--  ---------------------------------- popular items -->
+
+
+        <section class="mt-5">
+            <div class="container-fluid mt-5">
+                <div class="row">
+                    <h1 class="fw-bold text-center">Popular Items</h1>
+                    <div class="col-1  d-flex align-items-center justify-content-end">
+                        <h1 class=" ">
+                            <i class="bi bi-arrow-left-circle-fill icon-arrow"></i>
+                        </h1>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-12 mt-5">
+                        <div class="card border border-0 text-start mx-auto" style="width: 12rem;">
+                            <img src="./images/order 1.png" class="card-img-end img-fluid mt-4 rounded-4" alt="image">
+                            <div class="card-body">
+                                <h6 class="fw-bold"> Chees Burger</h6>
+                                <h6 class="color-text"><i class="bi bi-geo-alt-fill"></i> Burger Arina </h6>
+                                <h6>$38.88</h6>
+                                <button class="btn btn-lg  find-food btn-order text-white">Order Now</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-lg-2 col-md-4 col-sm-12 mt-5">
+                        <div class="card border border-0 text-start mx-auto" style="width: 12rem;">
+                            <img src="./images/order 2.png" class="card-img-end img-fluid mt-4 rounded-4" alt="image">
+                            <div class="card-body">
+                                <h6 class="fw-bold">Toffe's Cake</h6>
+                                <h6 class="color-text"><i class="bi bi-geo-alt-fill"></i> Top Sticks</h6>
+                                <h6>$4.00</h6>
+                                <button class="btn btn-lg  find-food btn-order text-white">Order Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-2 col-md-4 col-sm-12 mt-5">
+                        <div class="card border border-0 text-start mx-auto" style="width: 12rem;">
+                            <img src="./images/order3.png" class="card-img-end img-fluid mt-4 rounded-4" alt="image">
+                            <div class="card-body">
+                                <h6 class="fw-bold">Dancake</h6>
+                                <h6 class="color-text"><i class="bi bi-geo-alt-fill"></i> Cake World</h6>
+                                <h6>$1.99</h6>
+                                <button class="btn btn-lg  find-food btn-order text-white">Order Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-12 mt-5">
+                        <div class="card border border-0 text-start mx-auto" style="width: 12rem;">
+                            <img src="./images/order 4.png" class="card-img-end img-fluid mt-4 rounded-4" alt="image">
+                            <div class="card-body">
+                                <h6 class="fw-bold">Crispy Sandwitch</h6>
+                                <h6 class="color-text"><i class="bi bi-geo-alt-fill"></i> Fastfood Dine </h6>
+                                <h6>$3.00</h6>
+                                <button class="btn btn-lg  find-food btn-order text-white">Order Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-12 mt-5">
+                        <div class="card border border-0 text-start mx-auto" style="width: 12rem;">
+                            <img src="./images/order 5.png" class="card-img-end img-fluid mt-4 rounded-4" alt="image">
+                            <div class="card-body">
+                                <h6 class="fw-bold">Thai Soup</h6>
+                                <h6 class="color-text"><i class="bi bi-geo-alt-fill"></i> Foody man </h6>
+                                <h6>$2.79</h6>
+                                <button class="btn btn-lg  find-food btn-order text-white">Order Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-1  d-flex align-items-center">
+                        <h1 class="">
+                            <i class="bi bi-arrow-right-circle-fill icon-arrow"></i>
+                        </h1>
+                    </div>
+
+
+                </div>
+
+            </div>
+            </div>
+        </section>
+
+        <!-- Featured Restaurants-------------------------------------- -->
+
+        <section class="">
+            <div class="container mt-5">
+                <div class="row mt-4">
+                    <h1 class="text-center fw-bold mt-5 text-center">Featured Restaurants</h1>
+
+
+                    <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+                        <div class="card border border-0 text-start mx-auto" style="width: 16rem;">
+                            <img src="./images/feature1.png" class="card-img-end img-fluid mt-4 rounded-4" alt="image">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class=" d-flex" style="margin-left: -10px;">
+                                        <img src="./images/featurelogo1.png" class="img-fluid w-25 me-3" alt="">
+                                        <span class=" fw-bold "> Food World
+                                            <br />
+                                            <p class="world">
+
+                                                <i class="bi bi-star-fill"></i>&nbsp; 46
+                                            </p>
+                                        </span>
+                                    </div>
+                                    <button class="btn  btn-delivery mt-3 fw-bold w-75">Open tomorrow</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+                        <div class="card border border-0 text-start mx-auto" style="width: 16rem;">
+                            <img src="./images/feature2.png" class="card-img-end img-fluid mt-4 rounded-4" alt="image">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class=" d-flex" style="margin-left: -10px;">
+                                        <img src="./images/featurelogo2.png" class="img-fluid w-25 me-3" alt="">
+                                        <span class=" fw-bold"> PizzaHUb
+                                            <br />
+                                            <p class="world">
+                                                <i class="bi bi-star-fill"></i>&nbsp; 40
+                                            </p>
+                                        </span>
+                                    </div>
+                                    <button class="btn  btn-delivery mt-3 fw-bold w-75">Open tomorrow</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+                        <div class="card border border-0 text-start mx-auto" style="width: 16rem;">
+                            <img src="./images/feature3.png" class="card-img-end img-fluid mt-4 rounded-4" alt="image">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class=" d-flex" style="margin-left: -10px;">
+                                        <img src="./images/featurelogo3.png" class="img-fluid w-25 me-3" alt="">
+                                        <span class=" fw-bold"> Donuts hut
+                                            <br />
+                                            <p class="world">
+                                                <i class="bi bi-star-fill"></i>&nbsp; 20
+                                            </p>
+                                        </span>
+                                    </div>
+                                    <button class="btn  btn-open mt-3 fw-bold w-50">Open Now</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+                        <div class="card border border-0 text-start mx-auto" style="width: 16rem;">
+                            <img src="./images/feature4.png" class="card-img-end img-fluid mt-4 rounded-4" alt="image">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class=" d-flex" style="margin-left: -10px;">
+                                        <img src="./images/featurelogo4.png" class="img-fluid w-25 me-3" alt="">
+                                        <span class=" fw-bold"> Donuts hut
+                                            <br />
+                                            <p class="world">
+                                                <i class="bi bi-star-fill"></i>&nbsp; 50
+                                            </p>
+                                        </span>
+                                    </div>
+                                    <button class="btn  btn-open mt-3 fw-bold w-50">Open Now</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+                        <div class="card border border-0 text-start mx-auto" style="width: 16rem;">
+                            <img src="./images/feature5.png" class="card-img-end img-fluid mt-4 rounded-4" alt="image">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class=" d-flex" style="margin-left: -10px;">
+                                        <img src="./images/featurelogo5.png" class="img-fluid w-25 me-3" alt="">
+                                        <span class=" fw-bold"> Ruby Tuesday
+                                            <br />
+                                            <p class="world">
+                                                <i class="bi bi-star-fill"></i>&nbsp; 26
+                                            </p>
+                                        </span>
+                                    </div>
+                                    <button class="btn  btn-open mt-3 fw-bold w-50">Open Now</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+                        <div class="card border border-0 text-start mx-auto" style="width: 16rem;">
+                            <img src="./images/feature6.png" class="card-img-end img-fluid mt-4 rounded-4" alt="image">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class=" d-flex" style="margin-left: -10px;">
+                                        <img src="./images/featurelogo6.png" class="img-fluid w-25 me-3" alt="">
+                                        <span class=" fw-bold"> Kuakata Fried Chicken
+                                            <br />
+                                            <p class="world">
+                                                <i class="bi bi-star-fill"></i>&nbsp; 53
+                                            </p>
+                                        </span>
+                                    </div>
+                                    <button class="btn  btn-open mt-3 fw-bold w-50">Open Now</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+                        <div class="card border border-0 text-start mx-auto" style="width: 16rem;">
+                            <img src="./images/feature7.png" class="card-img-end img-fluid mt-4 rounded-4" alt="image">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class=" d-flex" style="margin-left: -10px;">
+                                        <img src="./images/featurelogo7.png" class="img-fluid w-25 me-3" alt="">
+                                        <span class=" fw-bold"> Red Square
+                                            <br />
+                                            <p class="world">
+                                                <i class="bi bi-star-fill"></i>&nbsp; 45
+                                            </p>
+                                        </span>
+                                    </div>
+                                    <button class="btn  btn-open mt-3 fw-bold w-50">Open Now</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+                        <div class="card border border-0 text-start mx-auto" style="width: 16rem;">
+                            <img src="./images/feature8.png" class="card-img-end img-fluid mt-4 rounded-4" alt="image">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class=" d-flex" style="margin-left: -10px;">
+                                        <img src="./images/featurelogo8.png" class="img-fluid w-25 me-3" alt="">
+                                        <span class=" fw-bold"> Tace Bell
+                                            <br />
+                                            <p class="world">
+                                                <i class="bi bi-star-fill"></i>&nbsp; 35
+                                            </p>
+                                        </span>
+                                    </div>
+                                    <button class="btn  btn-open mt-3 fw-bold w-50">Open Now</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-12 text-center mt-5">
+                        <div>
+                            <button class="mt-3 btn btn-lg px-4 text-white view">View All <i
+                                    class="bi bi-caret-right-fill"></i> </button>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- search food------------------------------- -->
+
+        <section class="mt-5">
+            <div class="container-fluid mt-5 search-food p-lg-5 p-md-3">
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-3 text-center mt-3">
+                            <h2 class="fw-bold mt-2">Search by Food</h2>
+                        </div>
+                        <div class="col-9 text-end mt-2">
+                            <div class="view-all">
+                                <p class="mb-0">View All <i class="bi bi-caret-right-fill"></i>&nbsp; <i
+                                        class="bi bi-arrow-left-circle-fill fs-1"></i> <i
+                                        class="bi bi-arrow-right-circle-fill fs-1"></i> </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-5 text-center">
+                        <div class="col-lg-2 col-md-4 col-sm-6 mx-auto">
+                            <img src="./images/search-pizza.png" alt="search" class="img-fluid rounded-circle">
+                            <p class="fw-bold mt-3">Pizza</p>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-6 mx-auto">
+                            <img src="./images/search2.png" alt="search" class="img-fluid rounded-circle">
+                            <p class="fw-bold mt-3">Burger</p>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-6 mx-auto">
+                            <img src="./images/search3.png" alt="search" class="img-fluid rounded-circle">
+                            <p class="fw-bold mt-3">Noodles</p>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-6 mx-auto">
+                            <img src="./images/search5.png" alt="search" class="img-fluid rounded-circle">
+                            <p class="fw-bold mt-3">Sub-sandiwch</p>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-6 mx-auto">
+                            <img src="./images/search6.png" alt="search" class="img-fluid rounded-circle">
+                            <p class="fw-bold mt-3">Chowmein</p>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-6 mx-auto">
+                            <img src="./images/search4.png" alt="search" class="img-fluid rounded-circle">
+                            <p class="fw-bold mt-3">Steak</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- daily Discunt-------------------------------------------------- -->
+
+        <section>
+            <div class="container-fluid  mobile-sec text-center">
+                <div class="row">
+                    <div class="col-12 mt-5">
+                        <img src="./images/clock.png" alt="clock" class="img-fluid w-75">
+                    </div>
+                </div>
+                <div class="container-fluid">
+
+
+                </div>
+        </section>
+
+        <div class="container-fluid mobile-sec">
+            <div class="row">
+                <div class="col-12">
+                    <img src="./images/app with back.png" alt="clock" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- cards Horizontal-------------------------------------- -->
+
+        <section>
+            <div class="container p-4 mt-5">
+                <div class="row ">
+                    <div class="col mt-4">
+                        <div class="card  border border-0 mt-4 card-hori mb-3 mx-auto" style="max-width: 1040px;">
+                            <div class="row g-0">
+
+                                <div class="col-lg-4 col-md-12">
+                                    <div class="card-body ">
+                                        <div class="mt-5">
+
+                                            <h2 class="card-title fw-bold"> Best deals <span class="cripsy"> Crispy
+                                                    Sandwiches</span></h2>
+                                            <p class="card-text">This is a wider card with supporting text below as
+                                                supporting text below as</p>
+                                        </div>
+                                        <div class="mt-lg-5 mt-sm-3">
+                                            <button class="mt-lg-5 btn  text-white view px-5 w-100">Proceed to order<i
+                                                    class="bi bi-caret-right-fill"></i> </button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-8 col-md-12">
+                                    <img src="./images/card horizontal1.png" class="img-fluid rounded-start" alt="card">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="row ">
+                    <div class="col mt-4">
+                        <div class="card  border border-0 mt-4 card-hori mb-3 mx-auto" style="max-width: 1040px;">
+                            <div class="row g-0">
+                                <div class="col-lg-8 col-md-12">
+                                    <img src="./images/card horizontal2.png" class="img-fluid rounded-start" alt="card">
+                                </div>
+
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="card-body ">
+                                        <div class="mt-5">
+
+                                            <h2 class="card-title fw-bold">Celebrate parties
+                                                <span class="cripsy"> with Fried Chicken</span>
+                                            </h2>
+                                            <p class="card-text">This is a wider card with supporting text below as
+                                                supporting text below as</p>
+                                        </div>
+                                        <div class="mt-lg-5 mt-sm-3">
+                                            <button class="mt-lg-5 btn  text-white view px-5 ">Proceed to order<i
+                                                    class="bi bi-caret-right-fill"></i> </button>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="row ">
+                    <div class="col mt-4">
+                        <div class="card  border border-0 mt-4 card-hori mb-3 mx-auto" style="max-width: 1040px;">
+                            <div class="row g-0">
+
+                                <div class="col-lg-4 col-md-12">
+                                    <div class="card-body ">
+                                        <div class="mt-5">
+
+                                            <h2 class="card-title fw-bold">Wanna eat hot
+                                                & spicy <span class="cripsy"> Pizza?</span></h2>
+                                            <p class="card-text">This is a wider card with supporting text below as
+                                                supporting text below as</p>
+                                        </div>
+                                        <div class="mt-lg-5 mt-sm-3">
+                                            <button class="mt-lg-5 btn  text-white view px-5 w-100">Proceed to order<i
+                                                    class="bi bi-caret-right-fill"></i> </button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-8 col-md-12">
+                                    <img src="./images/card horizontal 3.png" class="img-fluid rounded-start"
+                                        alt="card">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- second last--------------- -->
+ 
+        <section>
+            <div class="container-fluid last-section p-5">
+                <div class="row p-3">
+                    <div class="col text-center text-white d-flex align-items-center justify-content-end">
+                        <h2 class="fw-bolder text-big">Are you ready to order with the best deals?</h2>
+                    </div>
+                                         
+                </div>
+                <div class="ro">
+                    <div class="col-9 text-end">
+                        <button class="mt-lg-5 btn  text-white find-food ">Proceed to order <i
+                            class="bi bi-caret-right-fill"></i> </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+
+      <section>
+         <div class="container-fluid bg-dark p-4">
+            <div class="container p-lg-5 text-white">
+                <div class="row gap-lg-4">
+                    <h3 class="mx-4">Our top cities</h3>
+                    <div class="col-lg-2 col-md-4 col-sm-4  mt-3">
+                        <ul class="list">
+                            <li>San Francisco</li>
+                            <li>Miami</li>
+                            <li>San Diego</li>
+                            <li>East Bay</li>
+                            <li>Long Beach</li>
+                        </ul>
+                        
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 mt-3">
+                        <ul class="list">
+                            <li>San Francisco</li>
+                            <li>Miami</li>
+                            <li>San Diego</li>
+                            <li>East Bay</li>
+                            <li>Long Beach</li>
+                        </ul>
+                        
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 mt-3">
+                        <ul class="list">
+                            <li>San Francisco</li>
+                            <li>Miami</li>
+                            <li>San Diego</li>
+                            <li>East Bay</li>
+                            <li>Long Beach</li>
+                        </ul>
+                        
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 mt-3">
+                        <ul class="list">
+                            <li>San Francisco</li>
+                            <li>Miami</li>
+                            <li>San Diego</li>
+                            <li>East Bay</li>
+                            <li>Long Beach</li>
+                        </ul>
+                        
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 mt-3">
+                        <ul class="list">
+                            <li>San Francisco</li>
+                            <li>Miami</li>
+                            <li>San Diego</li>
+                            <li>East Bay</li>
+                            <li>Long Beach</li>
+                        </ul>
+                        
+                    </div>
+                </div>
+                <div class="mt-5">
+
+                    <hr>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                         <ul class="list">
+                            <h4 class="fw-bolder mb-4">Company</h4>
+                            <li>About US</li>
+                            <li>Team</li>
+                            <li>Career</li>
+                            <li>Blog</li>
+                         </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                         <ul class="list">
+                            <h4 class="fw-bolder mb-4">Contact</h4>
+                            <li>Help & Support</li>
+                            <li>Partner with us </li>
+                            <li>Ride with us</li>
+                            
+                         </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                         <ul class="list">
+                            <h4 class="fw-bolder mb-4">Legal</h4>
+                            <li>Ride with us</li>
+                            <li>Refund & Cancellation</li>
+                            <li>Privacy Policy </li>
+                            <li>Cookie Policy</li>
+                            
+                         </ul>
+                    </div>
+                    <div class="col-lg-6 text-lg-start col-md-6 col-sm-6">
+                         <ul class="list">
+                            <h6 class="mb-4">Follow Us</h6>
+                            <li class="mb-5"><i class="bi bi-instagram"></i>
+                                <i class="bi bi-facebook mx-3"></i>
+                                <i class="bi bi-twitter"></i>
+                            </li>
+                            <li class="mb-4">Receive exclusive offers in your mailbox</li>
+                            <li><div class="input-group w-75 mt-5">
+                                <span class="input-group-text input-field mb-2 mailbox" id="basic-addon1"><i
+                                        class="bi bi-envelope text-secondary fs-5"></i></span>
+                                <input type="text"
+                                    class="form-control w-25 border border-start-0 mailbox mb-2 text-secondary"
+                                    placeholder="Enter Your Email" aria-label="Username"
+                                    aria-describedby="basic-addon1">
+                                <div class="">
+                                    <button class="btn  text-white btn-warning ms-2  mt-1 py-2">Subscribe</button>
+                                </div>
+                            </div></li>
+                            
+                            
+                         </ul>
+                    </div>
+                    <div class="mt-5">
+                        <hr>
+                    </div>
+                    <div class="col-6 text-start">
+                        <p>All Right Reserved <strong> &copy; Techloset, 2023</strong></p>
+                    </div>
+                    <div class="col-6 text-end">
+                        <p>Made with 🥰 by <strong>MUHAMMAD FAROOQ </strong></p>
+                    </div>
+                <div>
+                    <p> Roll NO  =   98718</p>
+                </div>
+
+                </div>
+            </div>
+         </div>
+      </section>
+    
+    </footer>
+</body>
+
+</html>

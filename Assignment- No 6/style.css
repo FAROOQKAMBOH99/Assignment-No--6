@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.icon-location{
+    color:  #FFB30E;
+}
+
+.button-login{
+    color: #FFB30E;
+background: #FFFFFF;
+box-shadow: 0px 5px 10px rgba(255, 174, 0, 0.26), 0px 20px 40px rgba(255, 174, 0, 0.29);
+border-radius: 8px;
+
+}
+.front-text{
+    
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 100%;
+color: #FFFFFF;
+text-shadow: 0px 14px 15px rgba(255, 174, 0, 0.01), 0px 27px 82px rgba(255, 174, 0, 0.28);
+
+}
+.btn-delivery{
+    color: #F17228;
+    background: rgba(241, 114, 40, 0.1);
+    border-radius: 8px;
+
+}
+.btn-delivery:hover{
+    color: #F17228;
+    background: rgba(247, 246, 245, 0.1);
+    border-radius: 8px;
+    border: 1px solid #F17228;
+
+}
+
+.icon-email{
+    color: #F17228;
+}
+
+.input-field{
+    background: #F5F5F5;
+    border-radius: 8px;
+}
+.find-food{
+    background: linear-gradient(95.71deg, #FF7A7A -39.64%, #F75900 135.31%);
+border-radius: 8px;
+}
+
+
+.section-3rd{
+    background: linear-gradient(180deg, rgba(255, 206, 103, 0.22) -42.47%, rgba(253, 237, 202, 0) 100%);
+}
+
+.how{
+ color: #F17228;
+}
+.icon-arrow{
+    color: #FFB30E;
+    cursor: pointer;
+}
+.color-text{
+    color: #FFB30E;
+}
+.btn-order{
+    padding: 5px 48px;
+    font-size: 12px;
+}
+.btn-order:hover{
+    background-color: #ebeae9 !important;
+    border: 2px solid #ebeae9;
+    color: #F75900;
+}
+.world{
+    color: #FFB30E;
+}
+.btn-open{
+    background: rgba(121, 185, 60, 0.2);
+border-radius: 16px;
+color: #79B93C;
+}
+.btn-open:hover{
+    background: rgba(252, 253, 251, 0.2);
+border: 1px solid #79B93C;
+color: #79B93C;
+}
+.view{
+    background: linear-gradient(97.86deg, #FFBA26 -8.95%, #FF9A0E 109.24%);
+
+box-shadow: 0px 5px 10px rgba(255, 174, 0, 0.26), 0px 20px 40px rgba(255, 174, 0, 0.29);
+border-radius: 10;
+
+}
+.view:hover{
+    background: white;  
+    color: #FFBA26 !important;
+    border: 2px solid #FFB30E;
+
+}.search-food{
+    background: #FEFAF1;
+}
+.view-all{
+    color: #FFBA26;
+}
+.mobile-sec{
+    background: #FEEFD0;
+}
+.card-hori{
+    filter: drop-shadow(0px 14px 15px rgba(124, 124, 124, 0.06)) drop-shadow(0px 27px 82px rgba(124, 124, 124, 0.28));
+border-radius: 16px;    
+}
+.cripsy{
+    color: 
+    #FFB30E;
+}
+.last-section{
+    background: url(./images/oragne\ background.png) ;
+    
+}.list{
+    list-style: none;
+    line-height: 2rem;
+}.mailbox{
+    background: #424242;
+border-radius: 8px;
+border: 0 !important;
+margin-top: 3px;
+}
+@media screen and (max-width: 480px) {
+    .front-text{
+        font-size: 30px;
+    }.search{
+        display: none;
+    }.center-top{
+        visibility: hidden;
+    }.foodwaGon{
+        display: none;
+    }.logo{
+        width: 50% !important;
+    }
+    .icon-arrow{
+        display: none;
+    }
+  }
+  h2{ 
+    color:#424222
+  }
+button{
+    search food color:646773;
+}
